@@ -1,0 +1,22 @@
+.wrapper-field {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.btn-game {
+    width: 120px;
+    height: 120px;
+    margin: 1px;
+    font-size: 32px;
+}
+.true {
+    color: green;
+}
+.false {
+    color: red;
+}
