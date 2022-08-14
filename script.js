@@ -69,7 +69,7 @@ function checkGame () {
     }
     btnNumber.setAttribute("disabled", "disabled");
     if (count===16) {
-        if (countArr>8) {
+        if (countArr>12) {
             alert("Победа")
         } else {
             alert("Поражение")
