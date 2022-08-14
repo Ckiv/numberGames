@@ -1,7 +1,7 @@
 .wrapper-field {
     margin: 0 auto;
-    width: 500px;
-    height: 500px;
+    width: 26.042vw;
+    height: 26.042vw;
 }
 .field {
     display: flex;
@@ -9,8 +9,8 @@
     margin-bottom: 30px;
 }
 .btn-game {
-    width: 120px;
-    height: 120px;
+    width: 6.250vw;
+    height: 6.250vw;
     margin: 1px;
     font-size: 32px;
 }
@@ -19,4 +19,14 @@
 }
 .false {
     color: red;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .wrapper-field {
+        width: 90vw;
+        height: 90vw;
+    }
+    .btn-game {
+        width: 20vw;
+        height: 20vw;
+    }
 }
